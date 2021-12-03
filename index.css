@@ -1,0 +1,174 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+.inner {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    padding: 0 45px;
+}
+
+#Account{
+    margin: 0 auto;
+    background : #e7ebee;
+    min-height: 700px;
+}
+#Account .login-wr {
+    position: relative;
+    margin: 0 auto;
+    padding: 15px 15px 0 15px;
+}
+
+#Account .login-content {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 3px 3px 10px #333;
+}
+
+#Account h2 {
+    text-align: left;
+    font-weight: 200;
+    font-size: 1.6em;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+}
+
+#Account .form {
+    padding-top: 20px;
+    text-align: left;
+}
+
+#Account input[type="text"],
+#Account input[type="password"],
+#Account button {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    outline: 0;
+    box-shadow: 3px 3px 10px #eae6e6
+}
+
+#Account input[type="text"] {
+    background: no-repeat left 10px center;
+}
+#Account input[type="password"] {
+    background: no-repeat left 10px center;
+}
+#Account input[type="text"],
+#Account input[type="password"] {
+
+    border: 1px solid #bbb;
+    font-size: 14px;
+}
+
+#Account input[type="text"]:focus,
+#range2 input[type="password"]:focus {
+    border: 1px solid #57abee;
+}
+
+#Account a {
+    text-align: left;
+    font-size: 16px;
+    color: grey;
+}
+#forgot-password {
+    color: #57abee !important;
+}
+#Account button {
+    width: 80%;
+    background: #64afea;
+    border: none;
+    border-bottom: 5px solid #66abe5;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: box-shadow .4s ease;
+}
+
+#Account p {
+    margin-top: 20px;
+
+}
+body {
+  background-color: #ecf0f1;
+}
+
+/*.social-btns .btn,*/
+/*.social-btns .btn:before,*/
+/*.social-btns .btn .fa {*/
+/*    -webkit-transition: all 0.35s;*/
+/*    transition: all 0.35s;*/
+/*    -webkit-transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);*/
+/*    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);*/
+/*}*/
+.social-btns {
+    display: flex;
+}
+.btn {
+    color: #fff; !important;
+}
+.footer {
+    text-align: center;
+}
+.join-form {
+    padding-top: 30px;
+    height: 50px;
+    width: 540px;
+    background-color: #fff;
+}
+.footer p a {
+    color: #111;
+    text-align: center;
+}
+
+.grey-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    background-color: #bbbbbb;
+}
+.join-form {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.44);
+
+}
+.wrap-join {
+    margin-left: 30px;
+    padding-top: 50px;
+}
+
+.login-wr {
+    display: flex;
+    justify-content: center;
+}
+.login-wr .login-content .form input {
+    width: 500px;
+}
+.login-wr .login-content .form {
+    width: 500px;
+}
+.wrap-btn {
+    padding-top: 30px;
+}
+@media (max-width:480px){
+    .buttons {
+    margin: 0em 0 1em 0;
+    padding: 3em 0em 1em 0em;
+}
+}
